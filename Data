@@ -3,3 +3,34 @@
 - Download `shape_predictor_68_face_landmarks.dat` from [dlib's official page]
 (http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2) and place it in the root directory of the project.
 It will be excluded from the version control by the `.gitignore` file.
+
+
+Jupyter Notebook checkpoints
+
+.ipynb_checkpoints/
+
+Environments
+
+.env
+*.env
+
+IDE Specific files
+
+*.idea/
+.vscode/
+*.DS_Store
+
+
+### 4. Data
+
+- Download `shape_predictor_68_face_landmarks.dat` from [dlib's official page](http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2) and place it in the root directory of the project. It will be excluded from the version control by the `.gitignore` file.
+
+### 5. Directory Structure
+
+.
+|-- bluetooth_drowsiness_detection.py
+|-- README.md
+|-- requirements.txt
+|-- .gitignore
+|-- shape_predictor_68_face_landmarks.dat (not included in version control)
+
